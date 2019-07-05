@@ -23,7 +23,7 @@ print("File has column '{}' with first value of '{}'".format(
 print("First row of the file is {}".format(qvd.getRow(0)))
 ```
 
-The structure of QVD file is described in Wiki [My Awesome Wiki](../../wiki).
+The structure of QVD file is described in [Wiki](../../wiki).
 
 ## Performance
 
@@ -40,3 +40,10 @@ It is faster to read first fields then the last fields. It is nearly impossible 
 The same is true for rows: the smaller the index the faster it is read. The reason is simple - QVD files usually contain first symbols in the first rows. I would not try to read row #100 000 (and will not try #1000 as well).
 
 For performance contact the author.
+
+## Dependencies
+
+Code is simple and depends only on bitstring module:
+
+```pip install bitstring```
+
