@@ -23,7 +23,7 @@ print("File has column '{}' with first value of '{}'".format(
 print("First row of the file is {}".format(qvd.getRow(0)))
 ```
 
-The structure of QVD file is described in Wiki.
+The structure of QVD file is described in Wiki [My Awesome Wiki](../../wiki).
 
 ## Performance
 
