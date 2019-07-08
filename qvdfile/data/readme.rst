@@ -6,7 +6,8 @@ These QVDs are used in unit tests.
 
 Contain following simplest table (QlikView script notation):
 
-```SET NULLINTERPRET =<sym>;
+
+`SET NULLINTERPRET =<sym>;
 tab1:
 LOAD * INLINE [
     ID, NAME, ONEVAL
@@ -17,13 +18,13 @@ LOAD * INLINE [
 	<sym>,"None",0
 ];
 store tab1 into "tab1.qvd" (qvd);
-```   
+`   
 
 ## tab2.qvd
 
 More lengthy file needed to demostrate multi-byte bit indices:
 
-```tab2:
+`tab2:
 LOAD * INLINE [
     ID, VAL, NAME, PHONE, SINGLE
 	1, 100001, "Pete1", "1234567890", "single value"
@@ -48,4 +49,4 @@ LOAD * INLINE [
 ];    
 
 store tab2 into "tab2.qvd" (qvd);
-```
+`
