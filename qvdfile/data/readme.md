@@ -4,7 +4,7 @@ These QVDs are used in unit tests.
 
 ## tab1.qvd
 
-Contain following simplest table (QlikView script notation):
+Contains following simplest table (QlikView script notation):
 
 ```
 SET NULLINTERPRET =<sym>;
