@@ -47,3 +47,6 @@ Code is simple and depends only on bitstring module:
 
 ```pip install bitstring```
 
+## Unit tests
+
+Unit tests are provided as a sort of documentation - they describe what to expect from the code (or how it was supposed to be used by the author).
