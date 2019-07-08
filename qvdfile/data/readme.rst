@@ -6,7 +6,6 @@ These QVDs are used in unit tests.
 
 Contain following simplest table (QlikView script notation):
 
-
 ```
 SET NULLINTERPRET =<sym>;
 tab1:
