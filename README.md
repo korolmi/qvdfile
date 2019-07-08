@@ -13,7 +13,7 @@ Sample usage:
 ```
 import qvdfile 
 
-qvd = QvdFile ("test.qvd")
+qvd = qvdfile.QvdFile ("test.qvd")
 
 print("File has {} records".format(qvd.attribs["NumberOfRecords"]))
 
