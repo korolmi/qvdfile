@@ -2,7 +2,7 @@
 
 ## QVD File reader and writer (exploratory version)
 
-This is python object created to explore QVD file, it can be used 
+This is python3 object created to explore QVD file, it can be used 
 
 * to read QVD file Metedata
 * to read column values from QVD file
