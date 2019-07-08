@@ -7,7 +7,8 @@ These QVDs are used in unit tests.
 Contain following simplest table (QlikView script notation):
 
 
-`SET NULLINTERPRET =<sym>;
+```
+SET NULLINTERPRET =<sym>;
 tab1:
 LOAD * INLINE [
     ID, NAME, ONEVAL
@@ -18,7 +19,7 @@ LOAD * INLINE [
 	<sym>,"None",0
 ];
 store tab1 into "tab1.qvd" (qvd);
-`   
+```
 
 ## tab2.qvd
 
