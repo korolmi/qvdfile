@@ -4,7 +4,7 @@
 
 This is python3 object created to explore QVD file, it can be used 
 
-* to read QVD file Metedata
+* to read QVD file Metadata
 * to read column values from QVD file
 * to read rows from QVD file
 
