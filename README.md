@@ -15,10 +15,10 @@ import qvdfile
 
 qvd = qvdfile.QvdFile ("test.qvd")
 
-print("File has {} records".format(qvd.attribs["NumberOfRecords"]))
+print("File has {} records".format(qvd.attribs["NoOfRecords"]))
 
 print("File has column '{}' with first value of '{}'".format(
-  qvd.fields[0]["FieldName"],qvd.getFieldValue(qvd.fields[0]["FieldName"],0)))
+  qvd.fields[0]["FieldName"],qvd.getFieldVal(qvd.fields[0]["FieldName"],0)))
   
 print("First row of the file is {}".format(qvd.getRow(0)))
 ```
