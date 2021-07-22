@@ -1,5 +1,5 @@
 
-import os, datetime, time
+import os, datetime, time, re
 from bitstring import BitArray, BitStream, pack
 
 from qvdfile.xml2dict import xml2dict
@@ -22,7 +22,7 @@ class QvdFile():
         which extracts metadata section from QVD file and clears necessary data (e.g. number of rows is unknown), 
         this tool is also capable of creating XML template with just one field. """
 
-        self.mode = os.O_RDONLY if os.path.split(name)[1].split('.')[1].lower()=='qvd' else os.O_WRONLY
+        self.mode = os.O_RDONLY if re.match('^.*qvd$', name, re.IGNORECASE) else os.O_WRONLY
 
         """ We never ever want to erase exisitng QVD file, so we check QVD file presence and raise
         exception if it exists """
